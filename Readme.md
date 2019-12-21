@@ -8,6 +8,12 @@ However in order to run it you must use the command './RestAPI_library_server'
 
 The server is now on and you can go to a browser, preferablly chrome and type in 'localhost:7777/'
 
+To search a book ID type 'localhost:7777/book/{bookID between 1 and 6}'
+To find the most popular book type 'localhost:7777/popular'
+To find the most demanded book type 'localhost:7777/demanded'
+To find all available books type 'localhost:7777/status-available'
+To find all issued books type 'localhost:7777/status-issued'
+
 This takes you to the homepage.
 To go to the other pages, type in 'status/','demanded/','popular/' or 'checkedOutUser/' after the URL
 
