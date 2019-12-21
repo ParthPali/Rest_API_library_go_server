@@ -119,7 +119,7 @@ func returnAvailable(w http.ResponseWriter, r *http.Request) {
     for i := 0; i < 7; i++ {
         
         if checkavailable(strconv.Itoa(i)){
-            fmt.Fprintf(w, "The book %d is currently available. \n",i)
+            fmt.Fprintf(w, "The bookID# %d is currently available. \n",i)
         }
     }
 }
